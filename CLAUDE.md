@@ -21,6 +21,10 @@ session can be interrupted, and an unwritten note is a lost one.
   so the hook has to say what the note is actually good for.
 - `notes/<area>/<topic>.md` — one idea per file. Create the area directory when
   the first note needs it.
+- `_config.yml`, `_layouts/default.html`, `home.md` — the GitHub Pages site at
+  <https://ctbot000.github.io/study-math/>. Asked for, so it is the one
+  exception to "no build tooling" above; leave it in place. Adding a note
+  needs no change here — it is published on the next push to `main`.
 
 Areas: `algebra`, `analysis`, `calculus`, `discrete`, `geometry`,
 `linear-algebra`, `number-theory`, `probability`, `statistics`. Add a new one
