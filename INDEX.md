@@ -22,7 +22,7 @@ _No notes yet._
 
 ## geometry
 
-_No notes yet._
+- [A circle tangent to both coordinate axes has center $(\pm r, \pm r)$](notes/geometry/circle-tangent-to-both-axes.md) — Tangency turns into $|a|=|b|=r$, so the quadrant alone fixes the center's signs. `circle`, `tangency`, `coordinate-geometry`
 
 ## linear-algebra
 
