@@ -11,13 +11,23 @@
 # and the README is never promoted to the site root. home.md supplies the root
 # instead, via permalink.
 #
-# Math is left to MathJax in the layout: kramdown passes inline $…$ through
-# untouched and rewrites display $$…$$ to \[…\], and MathJax reads both.
+# Markdown is rendered by CommonMark, the processor GitHub.com itself uses, so
+# the site and the repository view agree. Jekyll's default, kramdown, needs no
+# delimiter row to start a table, so it turns any line holding a "|" into one —
+# and absolute values, norms and P(A|B) all carry pipes.
+#
+# Math is left to MathJax in the layout: CommonMark passes $…$ and $$…$$ through
+# untouched, and MathJax is configured for both.
 
 title: study-math
 description: A record of what I learn about mathematics.
 url: https://ctbot000.github.io
 baseurl: /study-math
+
+markdown: CommonMarkGhPages
+commonmark:
+  options: [SMART, FOOTNOTES, UNSAFE]
+  extensions: [strikethrough, autolink, table, tagfilter]
 
 exclude:
   - CLAUDE.md
