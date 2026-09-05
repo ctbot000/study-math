@@ -14,5 +14,11 @@ description: A record of what I learn about mathematics.
 url: https://ctbot000.github.io
 baseurl: /study-math
 
+# jekyll-readme-index serves README.md at the site root, but only renders it
+# through a layout when it is given front matter; without this it is copied
+# out as raw markdown and / returns 404.
+readme_index:
+  with_frontmatter: true
+
 exclude:
   - CLAUDE.md
