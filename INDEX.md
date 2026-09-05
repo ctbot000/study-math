@@ -2,7 +2,7 @@
 
 One line per note. Scan this first; open only what is relevant.
 
-Format: `- [Title](path) — one-line hook. \`tag\`, \`tag\``
+Format: `` - [Title](path) — one-line hook. `tag`, `tag` ``
 
 ## algebra
 
