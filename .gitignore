@@ -1,2 +1,6 @@
 # Local agent state
 .claude/
+
+# Jekyll build output
+_site/
+.jekyll-cache/

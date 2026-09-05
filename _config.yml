@@ -1,0 +1,18 @@
+# GitHub Pages build settings.
+#
+# The site relies on plugins GitHub Pages enables by default, so none are
+# declared here:
+#   jekyll-optional-front-matter — README.md and INDEX.md become pages
+#   jekyll-readme-index          — README.md is served as the site index
+#   jekyll-relative-links        — links to *.md resolve to the built pages
+#
+# Math is left to MathJax in the layout: kramdown passes inline $…$ through
+# untouched and rewrites display $$…$$ to \[…\], and MathJax reads both.
+
+title: study-math
+description: A record of what I learn about mathematics.
+url: https://ctbot000.github.io
+baseurl: /study-math
+
+exclude:
+  - CLAUDE.md

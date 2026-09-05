@@ -6,6 +6,8 @@ The point is the record, not the studying. A worked problem is forgotten in a
 week; the definition it turned on, written down once, is not. So each note is
 kept short enough to reread, and long enough to rebuild the idea from.
 
+The notes are published at <https://ctbot000.github.io/study-math/>.
+
 ## Layout
 
 - [`INDEX.md`](INDEX.md) — one line per note. Scan this first.
