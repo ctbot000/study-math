@@ -6,7 +6,7 @@ Format: `` - [Title](path) — one-line hook. `tag`, `tag` ``
 
 ## algebra
 
-_No notes yet._
+- [An odd solution count across two quadratics pins the parameter at a degenerate case](notes/algebra/odd-count-forces-a-degenerate-case.md) — Roots come in pairs, so an odd total means a double root or a discarded one — an equation in the parameter, not an inequality. `quadratic`, `discriminant`, `counting`
 
 ## analysis
 

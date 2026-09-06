@@ -41,3 +41,7 @@ so each quadrant needs its own equation.
 Discard roots with $r\le 0$ instead of taking $|r|$: in the example
 $r+1=-3$ gives $r=-4$, which is not a radius-4 circle somewhere else — it is no
 circle at all.
+
+## See also
+
+[An odd solution count across two quadratics pins the parameter at a degenerate case](../algebra/odd-count-forces-a-degenerate-case.md)
