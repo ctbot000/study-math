@@ -40,7 +40,8 @@ Enumerate every candidate before picking one. $D_1=0$ gives $k=\tfrac54$, but th
 $D_2<0$ and the total is $1$ — a discriminant vanishing is necessary for an odd
 count, not sufficient for the count you want.
 
-Sum the squares with Vieta rather than the roots themselves:
+Sum the squares with Vieta's formulas (근과 계수의 관계) rather than the roots
+themselves:
 $a_1^2+a_2^2=(a_1+a_2)^2-2a_1a_2 = 9-\tfrac12=\tfrac{17}{2}$ beats squaring
 $\tfrac{3\pm2\sqrt2}{2}$ by hand.
 
