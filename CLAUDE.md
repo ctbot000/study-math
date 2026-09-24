@@ -92,6 +92,11 @@ in the reply.
 **Update the index in the same commit.** A note missing from `INDEX.md` is a
 note that will never be found.
 
+**Spell TeX's punctuation commands as words.** Markdown strips the backslash
+from `\{`, `\}`, `\\` and `\,` before MathJax sees them — on GitHub and on the
+site alike — so braces vanish, `cases` rows merge into one, and a thin space
+prints as a comma. Write `\lbrace`, `\rbrace`, `\cr` and `\thinspace` instead.
+
 ## What does not go here
 
 - Full solutions to exercises, or copied textbook material. Record what the

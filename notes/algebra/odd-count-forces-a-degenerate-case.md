@@ -15,7 +15,7 @@ problem throws away.
 ## Definition
 
 For $f_1(x)=0$ and $f_2(x)=0$ quadratic in $x$ with parameter $k$, the total count
-is $n_1+n_2$ where $n_i \in \{0,1,2\}$. An odd total needs exactly one of:
+is $n_1+n_2$ where $n_i \in \lbrace 0,1,2 \rbrace$. An odd total needs exactly one of:
 
 - some $D_i = 0$ (double root — counts once), or
 - a root that fails a side condition and is discarded.
