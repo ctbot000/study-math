@@ -31,6 +31,11 @@ continuous one-to-one function on an interval is strictly monotone — a turn
 would repeat a value by the intermediate value theorem — so its image is the
 open interval between $g(p)$ and $g(q)$.
 
+For a line or a parabola no continuity theorem is needed. A line's values on
+$(p,q)$ run straight from $g(p)$ to $g(q)$. A parabola whose axis lies inside
+$(p,q)$ meets a horizontal line just beyond its vertex twice there, so it is not
+one-to-one; with the axis outside, it only rises or only falls.
+
 ## Example
 
 $f(x)=x$ for $x \le 0$ or $x \ge 1$, and $f(x)=1-x$ for $0 < x < 1$. The outer
@@ -48,7 +53,8 @@ each side of its axis, axis included. Writing $v < p$ drops the boundary case,
 and a quadratic pinned by three conditions can land exactly there.
 
 "One-to-one implies monotone" needs continuity on an interval; a piecewise $f$
-that jumps at the joins escapes it.
+that jumps at the joins escapes it. So does the shortcut "every piece's slope
+must have the same sign" — it assumes the pieces meet.
 
 ## See also
 
