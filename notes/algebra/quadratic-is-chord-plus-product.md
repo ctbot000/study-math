@@ -18,7 +18,8 @@ If $g$ is quadratic with $g(p)=P$ and $g(q)=Q$, then
 $$g(x)=a(x-p)(x-q)+\ell(x),$$
 
 where $\ell$ is the line through $(p,P)$ and $(q,Q)$ and $a \ne 0$ is the
-leading coefficient.
+leading coefficient. The chord (현) is the segment joining the two points;
+$\ell$ is the whole line through it, the secant (할선).
 
 ## Why it holds
 
