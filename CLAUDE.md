@@ -21,6 +21,8 @@ session can be interrupted, and an unwritten note is a lost one.
   so the hook has to say what the note is actually good for.
 - `notes/<area>/<topic>.md` — one idea per file. Create the area directory when
   the first note needs it.
+- `notes/<area>/<topic>.svg` — the note's figure, beside it with the same name,
+  whenever the idea has a picture.
 - `_config.yml`, `_layouts/default.html`, `home.md` — the GitHub Pages site at
   <https://ctbot000.github.io/study-math/>. Asked for, so it is the one
   exception to "no build tooling" above; leave it in place. Adding a note
@@ -44,6 +46,8 @@ added: <YYYY-MM-DD, Korean calendar day>
 ---
 
 ## Idea
+
+![<what the figure shows>](<topic>.svg)
 
 One or two sentences. What this is, in plain language, before any notation.
 
@@ -91,6 +95,11 @@ in the reply.
 
 **Update the index in the same commit.** A note missing from `INDEX.md` is a
 note that will never be found.
+
+**Lead with a picture when the idea has one.** A graph or diagram goes first in
+`## Idea`, as a standalone SVG beside the note: its own background rect, and
+colors that switch with `prefers-color-scheme` so it reads in light and dark
+mode. Leave the figure out only when no honest picture exists.
 
 **Spell TeX's punctuation commands as words.** Markdown strips the backslash
 from `\{`, `\}`, `\\` and `\,` before MathJax sees them — on GitHub and on the
