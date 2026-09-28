@@ -9,6 +9,8 @@ Format: `` - [Title](path) — one-line hook. `tag`, `tag` ``
 - [An odd solution count across two quadratics pins the parameter at a degenerate case](notes/algebra/odd-count-forces-a-degenerate-case.md) — Roots come in pairs, so an odd total means a double root or a discarded one — an equation in the parameter, not an inequality. `quadratic`, `discriminant`, `counting`
 - [A piecewise bijection fills each gap in the range exactly — in either direction](notes/algebra/piecewise-bijection-fills-the-gap.md) — The middle piece must be monotone with its endpoint values at the gap's ends; the reversed order counts too, so a bijection need not be monotone. `function`, `bijection`, `piecewise`
 - [A quadratic through two given points is the chord plus $a(x-p)(x-q)$](notes/algebra/quadratic-is-chord-plus-product.md) — Two points leave one free coefficient, so a third condition finishes it — at the midpoint $g=\ell-ah^2$, $h$ the half-width. `quadratic`, `interpolation`, `remainder-theorem`
+- [Two functions are equal when they agree at every point of their domain](notes/algebra/equal-functions-agree-pointwise.md) — A function is its input–output pairs: on a finite domain equality is one equation per element, and different formulas can agree. `function`, `equality`, `domain`
+- [An absolute-value equation solved by cases keeps only the roots inside each case](notes/algebra/absolute-value-cases-keep-their-own-roots.md) — Each case solves against a whole line; a root on the wrong half hits the dashed extension, not the graph. `absolute-value`, `equation`, `case-analysis`
 
 ## analysis
 
