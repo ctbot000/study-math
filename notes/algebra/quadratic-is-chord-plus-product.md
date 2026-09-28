@@ -7,6 +7,8 @@ added: 2026-09-25
 
 ## Idea
 
+![The chord from (0, 1) to (2, 5), its secant line, and the parabola 3 below it at the midpoint](quadratic-is-chord-plus-product.svg)
+
 Fixing two points on a parabola leaves one degree of freedom: how much of
 $(x-p)(x-q)$ — zero at both points — is added to the straight line through
 them. One more condition, of any kind, then pins the quadratic down.

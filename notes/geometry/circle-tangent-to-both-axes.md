@@ -7,6 +7,8 @@ added: 2026-09-06
 
 ## Idea
 
+![Four circles, one per quadrant, each touching both axes, with centers on y = x and y = −x](circle-tangent-to-both-axes.svg)
+
 A line is tangent to a circle exactly when the distance from the center to the
 line equals the radius. For the coordinate axes those distances are just $|y|$
 and $|x|$, so "tangent to both axes" collapses three unknowns into one.

@@ -7,6 +7,8 @@ added: 2026-09-25
 
 ## Idea
 
+![Outer pieces y = x leave the heights between 0 and 1 unused, and y = 1 − x fills them backwards](piecewise-bijection-fills-the-gap.svg)
+
 When the outer pieces of a function already cover most of $\mathbb{R}$, a middle
 piece makes the whole a bijection (일대일대응) only by hitting the leftover gap
 exactly, each value once. A continuous piece does that by running monotonically

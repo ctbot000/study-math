@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="512" viewBox="0 0 680 512" role="img">
+<title>A parabola as its chord plus a bend</title>
+<desc>The parabola g(x) = 3x² − 4x + 1 through (0, 1), (1, 0) and (2, 5). The chord joins (0, 1) and (2, 5); its line is ℓ(x) = 2x + 1. At the midpoint x = 1 the chord is at 3 and the parabola at 0, a drop of a·h² = 3.</desc>
+<style>
+  :root { --bg: #ffffff; --fg: #1f2328; --muted: #656d76; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0d1117; --fg: #e6edf3; --muted: #9198a1; }
+  }
+  .bg { fill: var(--bg); }
+  .t, .ts { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", Helvetica, Arial, sans-serif; }
+  .t { fill: var(--fg); font-size: 14px; }
+  .ts { fill: var(--muted); font-size: 12px; }
+</style>
+<rect class="bg" x="0" y="0" width="680" height="512"/>
+<line x1="124" y1="365" x2="556" y2="95" stroke="#888780" stroke-width="1.5" stroke-dasharray="5 5"/>
+<path d="M148 284 Q336 589.5 524 66.6" fill="none" stroke="#1D9E75" stroke-width="2.5"/>
+<line x1="180" y1="330" x2="500" y2="130" stroke="#7F77DD" stroke-width="4" stroke-linecap="round"/>
+<circle cx="180" cy="330" r="5" fill="#7F77DD"/>
+<circle cx="500" cy="130" r="5" fill="#7F77DD"/>
+<line x1="340" y1="234" x2="340" y2="376" stroke="#888780" stroke-width="1" stroke-dasharray="2 3"/>
+<circle cx="340" cy="230" r="3.5" fill="#7F77DD"/>
+<circle cx="340" cy="380" r="3.5" fill="#1D9E75"/>
+<text class="ts" x="140" y="334" text-anchor="end">(0, 1)</text>
+<text class="ts" x="512" y="150">(2, 5)</text>
+<text class="ts" x="330" y="214" text-anchor="end">(1, 3)</text>
+<text class="ts" x="350" y="404">(1, 0)</text>
+<text class="t" x="330" y="320" text-anchor="end">a·h² = 3</text>
+<line x1="80" y1="436" x2="110" y2="436" stroke="#7F77DD" stroke-width="4" stroke-linecap="round"/>
+<text class="t" x="120" y="440">chord (현): the segment from (0, 1) to (2, 5)</text>
+<line x1="80" y1="460" x2="110" y2="460" stroke="#888780" stroke-width="1.5" stroke-dasharray="5 5"/>
+<text class="t" x="120" y="464">secant (할선): the whole line ℓ(x) = 2x + 1</text>
+<line x1="80" y1="484" x2="110" y2="484" stroke="#1D9E75" stroke-width="2.5"/>
+<text class="t" x="120" y="488">g(x) = 3x(x − 2) + 2x + 1, which sits a·h² = 3 below ℓ at x = 1</text>
+</svg>

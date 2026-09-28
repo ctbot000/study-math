@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="488" viewBox="0 0 680 488" role="img">
+<title>Circles tangent to both axes</title>
+<desc>One circle per quadrant, each touching both coordinate axes. Each center is r from both axes, so it is (±r, ±r), and it lies on y = x in quadrants I and III or on y = −x in quadrants II and IV.</desc>
+<style>
+  :root { --bg: #ffffff; --fg: #1f2328; --muted: #656d76; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0d1117; --fg: #e6edf3; --muted: #9198a1; }
+  }
+  .bg { fill: var(--bg); }
+  .t, .ts { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", Helvetica, Arial, sans-serif; }
+  .t { fill: var(--fg); font-size: 14px; }
+  .ts { fill: var(--muted); font-size: 12px; }
+</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect class="bg" x="0" y="0" width="680" height="488"/>
+<line x1="160" y1="400" x2="520" y2="40" stroke="#888780" stroke-width="1" stroke-dasharray="5 5"/>
+<line x1="160" y1="40" x2="520" y2="400" stroke="#888780" stroke-width="1" stroke-dasharray="5 5"/>
+<line x1="150" y1="220" x2="542" y2="220" stroke="#888780" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="340" y1="410" x2="340" y2="28" stroke="#888780" stroke-width="1" marker-end="url(#arrow)"/>
+<circle cx="430" cy="130" r="90" fill="none" stroke="#1D9E75" stroke-width="2"/>
+<circle cx="277" cy="157" r="63" fill="none" stroke="#1D9E75" stroke-width="2"/>
+<circle cx="259" cy="301" r="81" fill="none" stroke="#1D9E75" stroke-width="2"/>
+<circle cx="385" cy="265" r="45" fill="none" stroke="#1D9E75" stroke-width="2"/>
+<line x1="430" y1="130" x2="430" y2="220" stroke="#7F77DD" stroke-width="1.5"/>
+<line x1="430" y1="130" x2="340" y2="130" stroke="#7F77DD" stroke-width="1.5"/>
+<text class="t" x="436" y="180">r</text>
+<text class="t" x="385" y="122" text-anchor="middle">r</text>
+<circle cx="430" cy="130" r="3.5" fill="#1D9E75"/>
+<circle cx="277" cy="157" r="3.5" fill="#1D9E75"/>
+<circle cx="259" cy="301" r="3.5" fill="#1D9E75"/>
+<circle cx="385" cy="265" r="3.5" fill="#1D9E75"/>
+<text class="ts" x="442" y="146">(r, r)</text>
+<text class="ts" x="268" y="175" text-anchor="end">(−r, r)</text>
+<text class="ts" x="271" y="318">(−r, −r)</text>
+<text class="ts" x="436" y="269">(r, −r)</text>
+<circle cx="95" cy="436" r="7" fill="none" stroke="#1D9E75" stroke-width="2"/>
+<text class="t" x="120" y="440">each circle touches both axes, so its center is r from each: (±r, ±r)</text>
+<line x1="80" y1="460" x2="110" y2="460" stroke="#888780" stroke-width="1" stroke-dasharray="5 5"/>
+<text class="t" x="120" y="464">centers sit on y = x (I, III) or y = −x (II, IV)</text>
+</svg>
