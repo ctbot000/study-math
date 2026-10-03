@@ -11,6 +11,7 @@ Format: `` - [Title](path) — one-line hook. `tag`, `tag` ``
 - [A quadratic through two given points is the chord plus $a(x-p)(x-q)$](notes/algebra/quadratic-is-chord-plus-product.md) — Two points leave one free coefficient, so a third condition finishes it — at the midpoint $g=\ell-ah^2$, $h$ the half-width. `quadratic`, `interpolation`, `remainder-theorem`
 - [Two functions are equal when they agree at every point of their domain](notes/algebra/equal-functions-agree-pointwise.md) — A function is its input–output pairs: on a finite domain equality is one equation per element, and different formulas can agree. `function`, `equality`, `domain`
 - [An absolute-value equation solved by cases keeps only the roots inside each case](notes/algebra/absolute-value-cases-keep-their-own-roots.md) — Each case solves against a whole line; a root on the wrong half hits the dashed extension, not the graph. `absolute-value`, `equation`, `case-analysis`
+- [An increasing function meets its inverse only on $y=x$](notes/algebra/increasing-function-meets-inverse-on-diagonal.md) — So $f(x)=f^{-1}(x)$ reduces to $f(x)=x$; a decreasing $f$ can also meet its inverse in mirror pairs off that line. `function`, `inverse-function`, `monotone`
 
 ## analysis
 
@@ -27,6 +28,7 @@ _No notes yet._
 ## geometry
 
 - [A circle tangent to both coordinate axes has center $(\pm r, \pm r)$](notes/geometry/circle-tangent-to-both-axes.md) — Tangency turns into $|a|=|b|=r$, so the quadrant alone fixes the center's signs. `circle`, `tangency`, `coordinate-geometry`
+- [A curve symmetric about a line meets every perpendicular line in mirror pairs](notes/geometry/symmetric-curve-meets-perpendicular-lines-in-pairs.md) — Intersections and tangencies come two at a time, and an odd count needs a point on the axis; $\sqrt{x-a}+b$ and $b-(x-a)^2$ mirror across $x+y=a+b$. `symmetry`, `reflection`, `counting`
 
 ## linear-algebra
 

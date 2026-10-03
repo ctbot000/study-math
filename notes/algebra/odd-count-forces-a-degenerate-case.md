@@ -47,4 +47,5 @@ $\tfrac{3\pm2\sqrt2}{2}$ by hand.
 
 ## See also
 
-[A circle tangent to both coordinate axes has center $(\pm r, \pm r)$](../geometry/circle-tangent-to-both-axes.md)
+- [A circle tangent to both coordinate axes has center $(\pm r, \pm r)$](../geometry/circle-tangent-to-both-axes.md)
+- [A curve symmetric about a line meets every perpendicular line in mirror pairs](../geometry/symmetric-curve-meets-perpendicular-lines-in-pairs.md) — symmetry is another source of pairs
